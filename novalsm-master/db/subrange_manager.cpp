@@ -6,7 +6,7 @@
 
 #include "subrange_manager.h"
 #include "memtable.h"
-
+#include "math.h"
 namespace leveldb {
     SubRangeManager::SubRangeManager(leveldb::StoCWritableFileClient *manifest_file,
                                      FlushOrder *flush_order,
